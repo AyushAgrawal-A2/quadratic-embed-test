@@ -7,13 +7,11 @@ export default function Home() {
         <iframe
           src="https://ayush-workos.quadratic-preview.com"
           allow="cross-origin-isolated"
-          // allow="cross-origin-isolated; storage-access"
-          // sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-storage-access-by-user-activation"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
 
-      {/* <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <h1>
           Quadratic - WorkOS (Public File) -
           https://ayush-workos.quadratic-preview.com/file/a9f803c6-fa0c-4823-8042-fafdbd9ec589
@@ -21,8 +19,7 @@ export default function Home() {
 
         <iframe
           src="https://ayush-workos.quadratic-preview.com/file/a9f803c6-fa0c-4823-8042-fafdbd9ec589"
-          allow="cross-origin-isolated; storage-access"
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-storage-access-by-user-activation"
+          allow="cross-origin-isolated"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
@@ -32,8 +29,7 @@ export default function Home() {
 
         <iframe
           src="https://app.quadratichq.com"
-          allow="cross-origin-isolated; storage-access"
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-storage-access-by-user-activation"
+          allow="cross-origin-isolated"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
@@ -46,11 +42,10 @@ export default function Home() {
 
         <iframe
           src="https://app.quadratichq.com/file/3eb0a466-0445-4cff-94a7-006f10aeddc9"
-          allow="cross-origin-isolated; storage-access"
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-storage-access-by-user-activation"
+          allow="cross-origin-isolated"
           style={{ width: "80%", height: "768px" }}
         />
-      </div> */}
+      </div>
     </div>
   );
 }
