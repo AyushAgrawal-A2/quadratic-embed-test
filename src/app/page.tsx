@@ -2,6 +2,16 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col items-center justify-center">
+        <h1>Quadratic - WorkOS - http://localhost:3000/</h1>
+
+        <iframe
+          src="http://localhost:3000/"
+          allow="cross-origin-isolated"
+          style={{ width: "80%", height: "768px" }}
+        />
+      </div>
+
+      <div className="flex flex-col items-center justify-center">
         <h1>Quadratic - WorkOS - https://ayush-workos.quadratic-preview.com</h1>
 
         <iframe
