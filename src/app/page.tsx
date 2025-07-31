@@ -14,18 +14,18 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      {/* <div className="flex flex-col items-center justify-center">
         <h1>Quadratic - LocalHost - http://localhost:3000/</h1>
 
         <iframe
           src="http://localhost:3000"
-          // allow="cross-origin-isolated; storage-access"
-          // sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-forms"
+          allow="cross-origin-isolated; storage-access"
+          sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-forms"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
 
-      {/* <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <h1>
           Quadratic - WorkOS (Public File) -
           https://ayush-workos.quadratic-preview.com/file/a9f803c6-fa0c-4823-8042-fafdbd9ec589
