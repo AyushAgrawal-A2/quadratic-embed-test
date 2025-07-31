@@ -12,7 +12,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      {/* <div className="flex flex-col items-center justify-center">
         <h1>Quadratic - WorkOS - https://ayush-workos.quadratic-preview.com</h1>
 
         <iframe
@@ -56,7 +56,7 @@ export default function Home() {
           allow="cross-origin-isolated"
           style={{ width: "80%", height: "768px" }}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
