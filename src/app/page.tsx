@@ -29,7 +29,7 @@ export default function Home() {
 
         <iframe
           src="http://localhost:3000"
-          allow="cross-origin-isolated; storage-access"
+          allow="cross-origin-isolated"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
