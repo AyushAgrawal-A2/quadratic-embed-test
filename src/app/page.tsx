@@ -18,7 +18,7 @@ export default function Home() {
         <iframe
           src="https://ayush-workos.quadratic-preview.com"
           allow="cross-origin-isolated"
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-storage-access-by-user-activation"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
