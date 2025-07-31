@@ -9,7 +9,7 @@ export default function Home() {
         <iframe
           src="https://ayush-workos.quadratic-preview.com"
           allow="cross-origin-isolated; storage-access"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-forms allow-popups-to-escape-sandbox allow-cookies"
+          sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-forms allow-popups-to-escape-sandbox"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
@@ -19,8 +19,8 @@ export default function Home() {
 
         <iframe
           src="http://localhost:3000"
-          allow="cross-origin-isolated; storage-access"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-forms"
+          // allow="cross-origin-isolated; storage-access"
+          // sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-forms"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
