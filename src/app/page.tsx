@@ -28,9 +28,8 @@ export default function Home() {
         <h1>Quadratic - LocalHost - http://localhost:3000/</h1>
 
         <iframe
-          src="http://localhost:3000/"
+          src="http://localhost:3000"
           allow="cross-origin-isolated; storage-access"
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-storage-access-by-user-activation"
           style={{ width: "80%", height: "768px" }}
         />
       </div>
